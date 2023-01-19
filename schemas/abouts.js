@@ -19,6 +19,11 @@ export default{
             type:'string'
         },
         {
+            name:'resume',
+            title:'Resume',
+            type:'string'
+        },
+        {
             name:'imgUrl',
             title:'ImgUrl',
             type: 'image',
