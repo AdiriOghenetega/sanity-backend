@@ -44,6 +44,18 @@ export default {
             }
           ]
       },
+      {
+          name:'features',
+          title:'Features',
+          type:'array',
+          of:[
+            {
+              name:'feature',
+              title:'Feature',
+              type:'string'
+            }
+          ]
+      },
    
       {
         name: 'tags',
