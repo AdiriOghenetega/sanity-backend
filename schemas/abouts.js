@@ -31,6 +31,30 @@ export default{
               hotspot: true,
             },
         },
+        {
+        name:'accomplishments',
+        title:'Accomplishments',
+        type: 'array',
+        of:[
+       {
+        name:"list",
+        title:"List",
+        type:"document",
+        fields:[
+            {
+                name:'imgUrl',
+                title:'ImgUrl',
+                type: 'image',
+            },
+            {
+                name:'description',
+                title:'Description',
+                type:'string'
+            }
+        ]
+       }
+    ]
+        }
         
     ]
 }
